@@ -40,7 +40,7 @@ class GithubCli(object):
     def __init__(self, username='',password='',my='ObiDevCu'):
         self.host = 'https://github.com/'
         self.hosting = 'https://github.com'
-        self.nexushost = 'https://nexus.uclv.edu.cu/repository/'
+        self.nexushost = 'http://gitlab.uho.edu.cu'
         self.username = username
         self.password = password
         self.session = requests.Session()
