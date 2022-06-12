@@ -134,5 +134,5 @@ def createStat(username,userdata,isadmin,jdb=None):
         for item in jdb.items:
             msg+= '➤ @' + item + '\n'
     msg+= '\n'
-    msg+= "<a href='"+f'nexus.uclv.edu.cu/repository/github.com/'+userdata['githubuser']+'/'+userdata['path_upload']+'-upload/archive/refs/heads/main.zip'+"'>🔗"+'Descargar Todo'+'🔗</a>\n'
+    msg+= "<a href='"+f'gitlab.uho.edu.cu/github.com/'+userdata['githubuser']+'/'+userdata['path_upload']+'-upload/archive/refs/heads/main.zip'+"'>🔗"+'Descargar Todo'+'🔗</a>\n'
     return msg
